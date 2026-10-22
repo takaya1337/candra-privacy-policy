@@ -1,6 +1,6 @@
 # Candra privacy policy
 
-Last updated: 13 October 2026
+Last updated: 21 October 2026
 
 Candra is a calendar and journal app. It is built so that what you write
 stays with you. This page says exactly what the app does with your data.
@@ -21,18 +21,26 @@ iPhone is [here](ios.md).
 
 - **Journal entries:** their text, title, category, date and time, and,
   for an entry timed as a practice, how long it went on.
-- **Categories and reminders** that you make.
+- **Categories, tags and reminders** that you make. Tags are plain names you put on entries and reminders, used only by the search.
 - **Geotags, only if you add one.** When you press the geotag button on
   an entry, Candra asks your phone where it is, once. The position is
   rounded to about 100 metres before it is saved; the exact position is
   never stored. You can also give the place a name. Candra never looks up
-  your location at any other time, and never in the background.
-- **A place for rise and set times, only if you ask for it.** In the
-  day's details you can have Candra work out sunrise, sunset and the
-  moon's times for where you are. It asks your phone once and keeps the
-  position rounded to about 10 kilometres.
-- **Settings:** your language, which calendar and view you locked, and
-  a practice that is under way.
+  your location in the background, and outside the times described here.
+- **One place, only if you set it,** for sunrise, sunset and the moon's
+  times, the sky and the prayer times, and for counting an evening as
+  the next day in the search. You can set it by hand, or have Candra ask
+  your phone once. It is kept rounded to about 10 kilometres. If you have
+  already let Candra use your location, it also brings this place up to
+  date when you press Today or open one of its tools (the sky, the
+  planets, the stars, prayer times, the crescent, Light), so that what
+  they show is for where you are. It never asks for permission to do
+  this: without it, the place simply stays as it was.
+- **Settings:** your language, dark or light, which calendar and view
+  you locked, and a practice that is under way.
+
+**The search keeps nothing.** It looks through your journal and
+reminders on the device; what you search for is not saved and not sent.
 - **A GitHub access token,** only if you set up sync. It is stored
   encrypted on the device and is sent to GitHub and nowhere else.
 
@@ -40,6 +48,11 @@ iPhone is [here](ios.md).
 it, whether your own birth's or anyone else's, are used to draw the
 chart and are gone when you leave the screen. They are never written to
 the device and never sent anywhere.
+
+About every twelve hours Android lets Candra run briefly in the
+background, to set your coming reminders in place again so they keep
+coming however long the app stays closed. It reads your reminders and
+settings on the device and sends nothing anywhere.
 
 Android's cloud backup is switched off for Candra, so your journal is not
 copied to your Google account.
@@ -70,7 +83,7 @@ Candra uses the network for nothing else.
 | Notifications | To show your reminders, the end of a practice timed down, and the clock of a practice under way. |
 | Alarms at an exact time | So a reminder sounds at the minute you set. |
 | Start after the phone restarts | To put your reminders back in place. |
-| Location (precise or approximate) | Only when you press for it: the geotag button, the place for rise and set times, or the place of a bazi chart. |
+| Location (precise or approximate) | Only when you press for it: the geotag button, the place for rise and set times, or the place of a bazi chart; and, if you have already allowed it, when you press Today or open a tool, to bring the sky's place up to date. Never asked for by these. |
 | Internet | Only for GitHub sync, if you turn it on. |
 
 Every one of these is optional except Internet, which does nothing until

@@ -1,6 +1,6 @@
 # Candra privacy policy: iPhone
 
-Last updated: 13 October 2026
+Last updated: 21 October 2026
 
 This is the policy for Candra on iPhone. The Android one is
 [here](README.md); the two apps do the same things, and this page says
@@ -20,17 +20,27 @@ how the iPhone does them.
 
 - **Journal entries:** their text, title, category, date and time, and,
   for an entry timed as a practice, how long it went on.
-- **Categories and reminders** that you make.
+- **Categories, tags and reminders** that you make. Tags are plain names you put on entries and reminders, used only by the search.
 - **Geotags, only if you add one.** When you press the geotag button on
   an entry, Candra asks your iPhone where it is, once. The position is
   rounded to about 100 metres before it is saved; the exact position is
   never stored. You can also give the place a name. Candra never looks
-  up your location at any other time, and never in the background. It
-  asks only for location "While Using the App".
-- **A place for rise and set times, only if you ask for it,** rounded to
-  about 10 kilometres.
-- **Settings:** your language, which calendar and view you locked, and
-  a practice that is under way.
+  up your location in the background, and outside the times described
+  here. It asks only for location "While Using the App".
+- **One place, only if you set it,** for sunrise, sunset and the moon's
+  times, the sky and the prayer times, and for counting an evening as
+  the next day in the search. You can set it by hand, or have Candra
+  ask your iPhone once. It is kept rounded to about 10 kilometres. If
+  you have already let Candra use your location, it also brings this
+  place up to date when you press Today or open one of its tools (the
+  sky, the planets, the stars, prayer times, the crescent, Light), so
+  that what they show is for where you are. It never asks for
+  permission to do this: without it, the place simply stays as it was.
+- **Settings:** your language, dark or light, which calendar and view
+  you locked, and a practice that is under way.
+
+**The search keeps nothing.** It looks through your journal and
+reminders on the iPhone; what you search for is not saved and not sent.
 - **A GitHub access token,** only if you set up sync. It is kept in the
   iPhone's Keychain, for this iPhone alone: it is not synced through
   iCloud Keychain and is not restored onto another device.
@@ -49,8 +59,8 @@ otherwise. Candra says otherwise for everything you write:
   come with it.** Use "Save a copy" or sync to carry it over.
 - **Included in backups, because iOS gives an app no way to leave them
   out:** the small settings listed above. Of these the only one that
-  says anything about you is the place for rise and set times, already
-  rounded to about 10 kilometres.
+  says anything about you is the place you set, already rounded to
+  about 10 kilometres.
 
 ## The Dynamic Island, the lock screen and widgets
 
@@ -87,9 +97,10 @@ Candra uses the network for nothing else.
 | Permission | Why |
 |---|---|
 | Notifications | To show your reminders, and the end of a practice timed down. |
-| Location, While Using the App | Only when you press for it: the geotag button, the place for rise and set times, or the place of a bazi chart. |
+| Location, While Using the App | Only when you press for it: the geotag button, the place for rise and set times, or the place of a bazi chart; and, if you have already allowed it, when you press Today or open a tool, to bring the sky's place up to date. Never asked for by these. |
 | Photos, add only | To save a picture of a day's reading when you ask. Candra cannot see your photos. |
 | Live Activities | The Dynamic Island and its lock screen banner, while a practice runs. |
+| Background App Refresh | Now and then, when iOS allows, to set your coming reminders in place again so they keep coming with the app closed. It reads your reminders on the iPhone and sends nothing. |
 
 Every one of these is optional. Candra works fully without any of them.
 
